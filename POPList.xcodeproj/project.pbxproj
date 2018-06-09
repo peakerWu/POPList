@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39742CA253A3B11A90D51E1E /* Pods_POPList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9566EED3C644C2F9607B1BDD /* Pods_POPList.framework */; };
+		EC4EAEC220C8FF5500161C85 /* CMMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EAEC120C8FF5500161C85 /* CMMotionViewController.m */; };
+		ECA16EEA20C628CF00C034BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16EE920C628CF00C034BA /* AppDelegate.m */; };
+		ECA16EED20C628CF00C034BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16EEC20C628CF00C034BA /* ViewController.m */; };
+		ECA16EF020C628CF00C034BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA16EEE20C628CF00C034BA /* Main.storyboard */; };
+		ECA16EF220C628CF00C034BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA16EF120C628CF00C034BA /* Assets.xcassets */; };
+		ECA16EF520C628CF00C034BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA16EF320C628CF00C034BA /* LaunchScreen.storyboard */; };
+		ECA16EF820C628CF00C034BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16EF720C628CF00C034BA /* main.m */; };
+		ECA16F0320C634E400C034BA /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F0220C634E400C034BA /* WBViewController.m */; };
+		ECA16F0620C634F000C034BA /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F0520C634F000C034BA /* CountdownViewController.m */; };
+		ECA16F0920C656B100C034BA /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F0820C656B100C034BA /* PictureViewController.m */; };
+		ECA16F0C20C6603F00C034BA /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F0B20C6603F00C034BA /* ButtonViewController.m */; };
+		ECA16F1020C6A03E00C034BA /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F0F20C6A03E00C034BA /* PresentingAnimator.m */; };
+		ECA16F1320C6A05000C034BA /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F1220C6A05000C034BA /* DismissingAnimator.m */; };
+		ECA16F1620C7745E00C034BA /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F1520C7745E00C034BA /* CustomTransitionViewController.m */; };
+		ECA16F1B20C778F900C034BA /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16F1A20C778F900C034BA /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39BD8F6E7AE26C65BD58F587 /* Pods-POPList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPList.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPList/Pods-POPList.release.xcconfig"; sourceTree = "<group>"; };
+		9566EED3C644C2F9607B1BDD /* Pods_POPList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFB5B2A45357DCC3F578255 /* Pods-POPList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPList/Pods-POPList.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4EAEC020C8FF5500161C85 /* CMMotionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMMotionViewController.h; sourceTree = "<group>"; };
+		EC4EAEC120C8FF5500161C85 /* CMMotionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMMotionViewController.m; sourceTree = "<group>"; };
+		ECA16EE520C628CF00C034BA /* POPList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA16EE820C628CF00C034BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA16EE920C628CF00C034BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA16EEB20C628CF00C034BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA16EEC20C628CF00C034BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA16EEF20C628CF00C034BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA16EF120C628CF00C034BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA16EF420C628CF00C034BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECA16EF620C628CF00C034BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA16EF720C628CF00C034BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA16F0120C634E400C034BA /* WBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewController.h; sourceTree = "<group>"; };
+		ECA16F0220C634E400C034BA /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
+		ECA16F0420C634F000C034BA /* CountdownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		ECA16F0520C634F000C034BA /* CountdownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		ECA16F0720C656B100C034BA /* PictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		ECA16F0820C656B100C034BA /* PictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		ECA16F0A20C6603F00C034BA /* ButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		ECA16F0B20C6603F00C034BA /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		ECA16F0E20C6A03E00C034BA /* PresentingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		ECA16F0F20C6A03E00C034BA /* PresentingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
+		ECA16F1120C6A05000C034BA /* DismissingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		ECA16F1220C6A05000C034BA /* DismissingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		ECA16F1420C7745E00C034BA /* CustomTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
+		ECA16F1520C7745E00C034BA /* CustomTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
+		ECA16F1920C778F900C034BA /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		ECA16F1A20C778F900C034BA /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA16EE220C628CF00C034BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39742CA253A3B11A90D51E1E /* Pods_POPList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04757EB9F6E15CB8E2BF8420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB5B2A45357DCC3F578255 /* Pods-POPList.debug.xcconfig */,
+				39BD8F6E7AE26C65BD58F587 /* Pods-POPList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7A4E9842C2B536A70C389F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9566EED3C644C2F9607B1BDD /* Pods_POPList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4EAEBF20C8FF3400161C85 /* CMMotionmanager */ = {
+			isa = PBXGroup;
+			children = (
+				EC4EAEC020C8FF5500161C85 /* CMMotionViewController.h */,
+				EC4EAEC120C8FF5500161C85 /* CMMotionViewController.m */,
+			);
+			path = CMMotionmanager;
+			sourceTree = "<group>";
+		};
+		ECA16EDC20C628CF00C034BA = {
+			isa = PBXGroup;
+			children = (
+				ECA16EE720C628CF00C034BA /* POPList */,
+				ECA16EE620C628CF00C034BA /* Products */,
+				04757EB9F6E15CB8E2BF8420 /* Pods */,
+				B7A4E9842C2B536A70C389F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA16EE620C628CF00C034BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA16EE520C628CF00C034BA /* POPList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA16EE720C628CF00C034BA /* POPList */ = {
+			isa = PBXGroup;
+			children = (
+				ECA16F0D20C6A01800C034BA /* Animator */,
+				ECA16EE820C628CF00C034BA /* AppDelegate.h */,
+				ECA16EE920C628CF00C034BA /* AppDelegate.m */,
+				ECA16F0420C634F000C034BA /* CountdownViewController.h */,
+				ECA16F0520C634F000C034BA /* CountdownViewController.m */,
+				ECA16F0720C656B100C034BA /* PictureViewController.h */,
+				ECA16F0820C656B100C034BA /* PictureViewController.m */,
+				ECA16F0A20C6603F00C034BA /* ButtonViewController.h */,
+				ECA16F0B20C6603F00C034BA /* ButtonViewController.m */,
+				ECA16F1720C778C300C034BA /* Controller */,
+				ECA16F0120C634E400C034BA /* WBViewController.h */,
+				ECA16F0220C634E400C034BA /* WBViewController.m */,
+				ECA16EEE20C628CF00C034BA /* Main.storyboard */,
+				ECA16EF120C628CF00C034BA /* Assets.xcassets */,
+				ECA16EF320C628CF00C034BA /* LaunchScreen.storyboard */,
+				ECA16EF620C628CF00C034BA /* Info.plist */,
+				ECA16EF720C628CF00C034BA /* main.m */,
+			);
+			path = POPList;
+			sourceTree = "<group>";
+		};
+		ECA16F0D20C6A01800C034BA /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				ECA16F0E20C6A03E00C034BA /* PresentingAnimator.h */,
+				ECA16F0F20C6A03E00C034BA /* PresentingAnimator.m */,
+				ECA16F1120C6A05000C034BA /* DismissingAnimator.h */,
+				ECA16F1220C6A05000C034BA /* DismissingAnimator.m */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		ECA16F1720C778C300C034BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC4EAEBF20C8FF3400161C85 /* CMMotionmanager */,
+				ECA16F1C20C77B0400C034BA /* Root */,
+				ECA16F1820C778DC00C034BA /* CustomTransition */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECA16F1820C778DC00C034BA /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				ECA16F1420C7745E00C034BA /* CustomTransitionViewController.h */,
+				ECA16F1520C7745E00C034BA /* CustomTransitionViewController.m */,
+				ECA16F1920C778F900C034BA /* ModalViewController.h */,
+				ECA16F1A20C778F900C034BA /* ModalViewController.m */,
+			);
+			path = CustomTransition;
+			sourceTree = "<group>";
+		};
+		ECA16F1C20C77B0400C034BA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				ECA16EEB20C628CF00C034BA /* ViewController.h */,
+				ECA16EEC20C628CF00C034BA /* ViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA16EE420C628CF00C034BA /* POPList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA16EFB20C628CF00C034BA /* Build configuration list for PBXNativeTarget "POPList" */;
+			buildPhases = (
+				E295435779C009D28E7D28C5 /* [CP] Check Pods Manifest.lock */,
+				ECA16EE120C628CF00C034BA /* Sources */,
+				ECA16EE220C628CF00C034BA /* Frameworks */,
+				ECA16EE320C628CF00C034BA /* Resources */,
+				1BB0EFF49B36A0F22DA00544 /* [CP] Embed Pods Frameworks */,
+				89CF4710DEBA9519D3DFC789 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POPList;
+			productName = POPList;
+			productReference = ECA16EE520C628CF00C034BA /* POPList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA16EDD20C628CF00C034BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhuke;
+				TargetAttributes = {
+					ECA16EE420C628CF00C034BA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECA16EE020C628CF00C034BA /* Build configuration list for PBXProject "POPList" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA16EDC20C628CF00C034BA;
+			productRefGroup = ECA16EE620C628CF00C034BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA16EE420C628CF00C034BA /* POPList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA16EE320C628CF00C034BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA16EF520C628CF00C034BA /* LaunchScreen.storyboard in Resources */,
+				ECA16EF220C628CF00C034BA /* Assets.xcassets in Resources */,
+				ECA16EF020C628CF00C034BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BB0EFF49B36A0F22DA00544 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-POPList/Pods-POPList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POPList/Pods-POPList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CF4710DEBA9519D3DFC789 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POPList/Pods-POPList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E295435779C009D28E7D28C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POPList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA16EE120C628CF00C034BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA16EED20C628CF00C034BA /* ViewController.m in Sources */,
+				ECA16F1020C6A03E00C034BA /* PresentingAnimator.m in Sources */,
+				ECA16F1320C6A05000C034BA /* DismissingAnimator.m in Sources */,
+				ECA16F0920C656B100C034BA /* PictureViewController.m in Sources */,
+				ECA16F1620C7745E00C034BA /* CustomTransitionViewController.m in Sources */,
+				ECA16F1B20C778F900C034BA /* ModalViewController.m in Sources */,
+				ECA16F0C20C6603F00C034BA /* ButtonViewController.m in Sources */,
+				ECA16F0320C634E400C034BA /* WBViewController.m in Sources */,
+				EC4EAEC220C8FF5500161C85 /* CMMotionViewController.m in Sources */,
+				ECA16F0620C634F000C034BA /* CountdownViewController.m in Sources */,
+				ECA16EF820C628CF00C034BA /* main.m in Sources */,
+				ECA16EEA20C628CF00C034BA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECA16EEE20C628CF00C034BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA16EEF20C628CF00C034BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECA16EF320C628CF00C034BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA16EF420C628CF00C034BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA16EF920C628CF00C034BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECA16EFA20C628CF00C034BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA16EFC20C628CF00C034BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFB5B2A45357DCC3F578255 /* Pods-POPList.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z5546HFB2;
+				INFOPLIST_FILE = POPList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhuke.com.POPList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA16EFD20C628CF00C034BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39BD8F6E7AE26C65BD58F587 /* Pods-POPList.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z5546HFB2;
+				INFOPLIST_FILE = POPList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhuke.com.POPList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA16EE020C628CF00C034BA /* Build configuration list for PBXProject "POPList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA16EF920C628CF00C034BA /* Debug */,
+				ECA16EFA20C628CF00C034BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA16EFB20C628CF00C034BA /* Build configuration list for PBXNativeTarget "POPList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA16EFC20C628CF00C034BA /* Debug */,
+				ECA16EFD20C628CF00C034BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA16EDD20C628CF00C034BA /* Project object */;
+}
