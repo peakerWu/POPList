@@ -45,8 +45,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _animationsArray = @[@"倒计时", @"图片放大与缩小", @"按钮动画", @"转场动画", @"重力加速度", @"微博弹出"];
-    _controllersArray = @[@"Countdown", @"Picture", @"Button", @"CustomTransition", @"CMMotion", @"WB"];
+    _animationsArray = @[@"倒计时", @"图片放大与缩小", @"按钮动画", @"转场动画", @"重力加速度", @"微博弹出", @"呼吸灯"];
+    _controllersArray = @[@"Countdown", @"Picture", @"Button", @"CustomTransition", @"CMMotion", @"WB", @"Twinkle"];
 }
 
 #pragma mark - ASTableDelegate, ASTableDataSource

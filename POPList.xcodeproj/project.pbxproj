@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39742CA253A3B11A90D51E1E /* Pods_POPList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9566EED3C644C2F9607B1BDD /* Pods_POPList.framework */; };
+		E81D0EC420F502E500988306 /* TwinkleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81D0EC320F502E400988306 /* TwinkleViewController.m */; };
 		EC4EAEC220C8FF5500161C85 /* CMMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4EAEC120C8FF5500161C85 /* CMMotionViewController.m */; };
 		ECA16EEA20C628CF00C034BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16EE920C628CF00C034BA /* AppDelegate.m */; };
 		ECA16EED20C628CF00C034BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA16EEC20C628CF00C034BA /* ViewController.m */; };
@@ -29,6 +30,8 @@
 		39BD8F6E7AE26C65BD58F587 /* Pods-POPList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPList.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPList/Pods-POPList.release.xcconfig"; sourceTree = "<group>"; };
 		9566EED3C644C2F9607B1BDD /* Pods_POPList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFB5B2A45357DCC3F578255 /* Pods-POPList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPList/Pods-POPList.debug.xcconfig"; sourceTree = "<group>"; };
+		E81D0EC220F502E400988306 /* TwinkleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinkleViewController.h; sourceTree = "<group>"; };
+		E81D0EC320F502E400988306 /* TwinkleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwinkleViewController.m; sourceTree = "<group>"; };
 		EC4EAEC020C8FF5500161C85 /* CMMotionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMMotionViewController.h; sourceTree = "<group>"; };
 		EC4EAEC120C8FF5500161C85 /* CMMotionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMMotionViewController.m; sourceTree = "<group>"; };
 		ECA16EE520C628CF00C034BA /* POPList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +89,15 @@
 				9566EED3C644C2F9607B1BDD /* Pods_POPList.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81D0EC120F502E400988306 /* Twinkle */ = {
+			isa = PBXGroup;
+			children = (
+				E81D0EC220F502E400988306 /* TwinkleViewController.h */,
+				E81D0EC320F502E400988306 /* TwinkleViewController.m */,
+			);
+			path = Twinkle;
 			sourceTree = "<group>";
 		};
 		EC4EAEBF20C8FF3400161C85 /* CMMotionmanager */ = {
@@ -153,6 +165,7 @@
 		ECA16F1720C778C300C034BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E81D0EC120F502E400988306 /* Twinkle */,
 				EC4EAEBF20C8FF3400161C85 /* CMMotionmanager */,
 				ECA16F1C20C77B0400C034BA /* Root */,
 				ECA16F1820C778DC00C034BA /* CustomTransition */,
@@ -326,6 +339,7 @@
 				ECA16F1B20C778F900C034BA /* ModalViewController.m in Sources */,
 				ECA16F0C20C6603F00C034BA /* ButtonViewController.m in Sources */,
 				ECA16F0320C634E400C034BA /* WBViewController.m in Sources */,
+				E81D0EC420F502E500988306 /* TwinkleViewController.m in Sources */,
 				EC4EAEC220C8FF5500161C85 /* CMMotionViewController.m in Sources */,
 				ECA16F0620C634F000C034BA /* CountdownViewController.m in Sources */,
 				ECA16EF820C628CF00C034BA /* main.m in Sources */,
